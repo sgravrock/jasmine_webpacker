@@ -1,6 +1,6 @@
 require 'json'
 
-module JasmineBrowserRails
+module JasmineWebpacker
   class Application
     def call(rack_env)
       path = WebpackerHelperAccessor.new.asset_pack_path('specs.js')

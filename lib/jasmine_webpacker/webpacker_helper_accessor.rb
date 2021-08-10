@@ -1,6 +1,6 @@
 require './config/application'
 
-module JasmineBrowserRails
+module JasmineWebpacker
   class WebpackerHelperAccessor
     include ActionView::Helpers::AssetUrlHelper
     include Webpacker::Helper
