@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'jasmine_browser_rails'
+
+JasmineBrowserRails::CLI.new.run ARGV
